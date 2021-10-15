@@ -1,0 +1,2 @@
+# vass_prueba-tecnica
+Por favor maquete la lading page adjunta al correo. Tenga en cuenta que se valorara el uso del  frameworks Bootstrap 4.0 en adelante, el uso de librerías como jQuery o Metal.js u otras. La adaptabilidad de la maqueta y como valor agregado el uso de SASS. En el PDF adjunto se encontrará los mockups para cada resolución. Recuerde que dispone de dos días hábiles a partir de la recepción de este correo. 
