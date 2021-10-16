@@ -1,6 +1,7 @@
-/* .container-fluid {
-	padding: 0;
-} */
+body {
+	font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+	color: #2b2b2b;
+}
 
 .bg-dark {
 	background-color: #000000 !important;
@@ -21,10 +22,34 @@
 	bottom: 0;
 	color: rgba(255, 255, 255, 0.75);
 	content: 'Contacto';
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 3em;
 	font-weight: 700;
 	left: 5px;
 	text-transform: uppercase;
 	position: absolute;
+}
+
+.text-section {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+.text-section h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 2rem;
+	margin-bottom: 20px;
+	padding-right: 70px;
+	text-transform: uppercase;
+}
+.text-section p {
+	border-left: 1px solid #000000;
+	padding-left: 30px;
+	font-size: 1.1em;
+}
+
+.vass-form {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+.vass-form input {
 }
