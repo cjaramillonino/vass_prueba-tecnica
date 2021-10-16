@@ -20,7 +20,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"><img src="src/img/logo-vass-blanco.png" alt="logo Vass"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarVassContent"
@@ -93,9 +93,11 @@
 
   <!-- Start Main container -->
   <div class="container-fluid">
-    <div class="row">
-      <div class="col text-section">
+    <div class="row text-section">
+      <div class="col-12 col-md-3 offset-md-1">
         <h2>Empecemos a hacerlo sencillo</h2>
+      </div>
+      <div class="col-12 col-md-5">
         <p class="prg-quote">Nos emociona impulsar tu transformaci&oacute;n digital</p>
       </div>
     </div>
@@ -103,36 +105,36 @@
 
   <!-- Start Form -->
   <form class="vass-form row g-3 needs-validation text-white container-fluid" novalidate>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="fullNameForm" class="form-label">Nombre y apellidos</label>
       <input type="name" class="form-control" id="fullNameForm" required>
       <div class="invalid-feedback">
         El campo es obligatorio.
       </div>
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="emailForm" class="form-label">Email</label>
       <input type="email" class="form-control" id="emailForm" required>
       <div class="invalid-feedback">
         El campo es obligatorio.
       </div>
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="companyForm" class="form-label">Empresa / Organismo</label>
       <input type="text" class="form-control" id="companyForm" required>
       <div class="invalid-feedback">
         El campo es obligatorio.
       </div>
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="countryForm" class="form-label">Pa&iacute;s</label>
       <input type="text" class="form-control" id="countryForm">
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="phoneForm" class="form-label">Tel&eacute;fono</label>
       <input type="number" class="form-control" id="phoneForm">
     </div>
-    <div class="col-12 col-lg-6">
+    <div class="col-12 col-md-10 offset-md-1 col-lg-4">
       <label for="textareaForm" class="form-label">Mensaje:</label>
       <textarea class="form-control" id="textareaForm" rows="4" required></textarea>
       <div class="invalid-feedback">
@@ -140,7 +142,7 @@
       </div>
     </div>
     <div class="row justify-content-end">
-      <div class="col-5">
+      <div class="col-5 col-md-3">
         <button type="submit" class="btn btn-primary mb-3">Enviar</button>
         <div class="invalid-feedback">
           Uno o m&aacute;s campos tienen un error. Por favor, rev&iacute;salos e int&eacute;ntalo de nuevo.
@@ -154,8 +156,8 @@
 
   <footer class="container-fluid bg-dark">
     <div class="nav-footer row">
-      <div class="complex-div col-12 md-2">Complex<br>made<br>simple</div>
-      <div class="col-6 md-2">
+      <div class="complex-div col-12 col-md-2">Complex<br>made<br>simple</div>
+      <div class="col-6 col-md-3 offset-md-1">
         <h6 class="title-footer">Sitemap VASS</h6>
         <ul class="nav-footer-ul">
           <li><a class="nav-footer-li" href="*">Home</a></li>
@@ -172,7 +174,7 @@
           <li><a class="nav-footer-li" href="*">Contacto</a></li>
         </ul>
       </div>
-      <div class="col-6 md-2">
+      <div class="col-6 col-md-3">
         <h6 class="title-footer">Sitemap Talento</h6>
         <ul class="nav-footer-ul">
           <li><a class="nav-footer-li" href="*">Talento</a></li>
@@ -184,7 +186,7 @@
           <li><a class="nav-footer-li" href="*">Ofertas</a></li>
         </ul>
       </div>
-      <div class="col-6 md-2">
+      <div class="col-6 col-md-3">
         <h6 class="title-footer">Empresas</h6>
         <ul class="nav-footer-ul">
           <li><a class="nav-footer-li" href="*">VASS</a></li>
@@ -195,16 +197,16 @@
       </div>
     </div>
     <div class="row justify-content-center">
-      <div class="copyright" class="col-12 col-xxl-4">
+      <div class="copyright" class="col-12 col-md-4">
         <p>Copyright &copy; 2021 Todos los derechos reservados</p>
       </div>
-      <div class="link-footer" class="col-12 col-xxl-4">
+      <div class="link-footer" class="col-12 col-md-4">
         <a href="*">Memoria ambiental</a>
         <a href="*">Pol&iacute;tica de cookies</a><br>
-        <a href="*">Pol&iacute;tica de privacidad</a><br>
+        <a href="*">Pol&iacute;tica de privacidad</a>
         <a href="*">Pol&iacute;tica de calidad y medio ambiente</a>
       </div>
-      <div class="social-footer col-12 col-xxl-4">
+      <div class="social-footer col-12 col-md-4">
         <i class="bi bi-twitter text-white"></i>
         <i class="bi bi-linkedin text-white"></i>
         <i class="bi bi-instagram text-white"></i>
