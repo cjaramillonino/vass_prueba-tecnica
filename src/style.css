@@ -118,16 +118,21 @@ footer .nav-footer-ul li {
 	font-size: 0.8em;
 	margin-bottom: 4px;
 }
-footer .copyright {
+footer .bottom-footer {
 	border-top: 1px solid #ffffff;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+footer .copyright {
 	color: rgba(255, 255, 255, 0.7);
 	font-size: 0.7em;
-	padding-top: 50px;
 	text-align: center;
+	margin-bottom: 30px;
 }
 footer .link-footer {
 	font-size: 0.8em;
 	text-align: center;
+	margin-bottom: 50px;
 }
 footer .link-footer a {
 	margin: 0 5px;
@@ -136,10 +141,13 @@ footer .social-footer {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 40px;
-	padding-top: 40px;
 }
 footer .social-footer i {
 	margin: 0 15px;
+}
+.logo-footer {
+	display: flex;
+	justify-content: flex-end;
 }
 
 @media (min-width: 768px) {
@@ -169,5 +177,13 @@ footer .social-footer i {
 	}
 	.navbar-nav {
 		height: auto;
+	}
+	.hero::after {
+		font-size: 8em;
+		right: 40px;
+		left: auto;
+	}
+	footer .copyright {
+		margin-bottom: 0;
 	}
 }
