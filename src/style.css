@@ -146,7 +146,7 @@ footer .social-footer i {
 	margin: 0 15px;
 }
 .logo-footer {
-	display: flex;
+	display: none;
 	justify-content: flex-end;
 }
 
@@ -155,11 +155,18 @@ footer .social-footer i {
 		font-size: 7.5em;
 	}
 
+	.navbar-nav {
+		height: auto;
+	}
+
 	.text-section h2 {
 		padding-right: 0;
 	}
 	footer h6 {
 		margin-top: 0;
+	}
+	.logo-footer {
+		display: flex;
 	}
 }
 
@@ -174,9 +181,6 @@ footer .social-footer i {
 	nav,
 	.navbar {
 		background-color: rgba(0, 0, 0, 0);
-	}
-	.navbar-nav {
-		height: auto;
 	}
 	.hero::after {
 		font-size: 8em;
